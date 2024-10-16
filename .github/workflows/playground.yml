@@ -2,11 +2,11 @@ name: Testando github actions
 
 on: [push, pull_request]
 
-jobs: 
-  linux_job: 
-
+jobs:
+  linux_job:
+    
     runs-on: ubuntu-latest
 
-    steps: 
+    steps:
       - name: Executa echo
-       run: echo "Hello world!""
+        run: echo hello world!
